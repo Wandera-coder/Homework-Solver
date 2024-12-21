@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's do homework</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Let's Do Homework</div>
+        <nav>
+            <a href="#subjects">Subjects</a>
+            <a href="#tutoring">Tutoring</a>
+            <a href="#planner">Homework Planner</a>
+        </nav>
+    </header>
+    <main>
+        <section id="subjects">
+            <h2>Choose a Subject</h2>
+            <div class="subject-list">
+                <button>Math</button>
+                <button>Science</button>
+                <button>Literature</button>
+                <button>History</button>
+            </div>
+        </section>
+
+        <section id="problem-solver">
+            <h2>Solve Your Homework</h2>
+            <input type="text" id="problem-input" placeholder="Enter your problem here">
+            <button onclick="solveProblem()">Solve</button>
+            <div id="solution"></div>
+        </section>
+
+        <section id="video-tutorials">
+            <h2>Watch Tutorials</h2>
+            <div class="tutorial-list">
+                <button>How to Solve Fractions</button>
+                <button>Basic Chemistry Reactions</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Homework Helper</p>
+    </footer>
+</body>
+</html>
